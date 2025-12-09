@@ -331,17 +331,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 78996362}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 377602850}
-  m_Father: {fileID: 1221192067}
+  m_Father: {fileID: 1279967608}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 1100, y: -100}
+  m_AnchoredPosition: {x: 0, y: -450}
   m_SizeDelta: {x: 300, y: 140}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &78996364
@@ -717,9 +717,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1131119714}
-        m_TargetAssemblyTypeName: "Gu\u0131Controller, Assembly-CSharp"
-        m_MethodName: DeckControlButton
+      - m_Target: {fileID: 873491049}
+        m_TargetAssemblyTypeName: MainMenuUIController, Assembly-CSharp
+        m_MethodName: DeckButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -993,8 +993,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1131119714}
-        m_TargetAssemblyTypeName: "Gu\u0131Controller, Assembly-CSharp"
+      - m_Target: {fileID: 1221192068}
+        m_TargetAssemblyTypeName: OptionsController, Assembly-CSharp
         m_MethodName: MasterVolumeSet
         m_Mode: 1
         m_Arguments:
@@ -1403,17 +1403,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 350810751}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 160755004}
-  m_Father: {fileID: 1221192067}
+  m_Father: {fileID: 1279967608}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 1100, y: 200}
+  m_AnchoredPosition: {x: 0, y: -150}
   m_SizeDelta: {x: 300, y: 140}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &350810753
@@ -1579,8 +1579,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1131119714}
-        m_TargetAssemblyTypeName: "Gu\u0131Controller, Assembly-CSharp"
+      - m_Target: {fileID: 1221192068}
+        m_TargetAssemblyTypeName: OptionsController, Assembly-CSharp
         m_MethodName: SFXVolumeSet
         m_Mode: 1
         m_Arguments:
@@ -1616,17 +1616,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 393160826}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1498883822}
-  m_Father: {fileID: 1221192067}
+  m_Father: {fileID: 948381865}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 150, y: 200}
+  m_AnchoredPosition: {x: 0, y: -150}
   m_SizeDelta: {x: 300, y: 140}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &393160828
@@ -1849,9 +1849,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1131119714}
-        m_TargetAssemblyTypeName: "Gu\u0131Controller, Assembly-CSharp"
-        m_MethodName: ApplyButton
+      - m_Target: {fileID: 1221192068}
+        m_TargetAssemblyTypeName: OptionsController, Assembly-CSharp
+        m_MethodName: Apply
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2353,8 +2353,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1131119714}
-        m_TargetAssemblyTypeName: "Gu\u0131Controller, Assembly-CSharp"
+      - m_Target: {fileID: 873491049}
+        m_TargetAssemblyTypeName: MainMenuUIController, Assembly-CSharp
         m_MethodName: ExitButton
         m_Mode: 1
         m_Arguments:
@@ -2873,12 +2873,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2097550503}
         m_TargetAssemblyTypeName: DeckMakerController, Assembly-CSharp
-        m_MethodName: CrownAdd
-        m_Mode: 1
+        m_MethodName: AddCard
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3066,7 +3066,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 689441479}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3074,11 +3074,11 @@ RectTransform:
   - {fileID: 788144947}
   - {fileID: 1301614096}
   - {fileID: 1760392018}
-  m_Father: {fileID: 1221192067}
+  m_Father: {fileID: 948381865}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 150, y: -100}
+  m_AnchoredPosition: {x: 0, y: -450}
   m_SizeDelta: {x: 300, y: 140}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &689441481
@@ -3144,17 +3144,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 720143182}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 312302334}
-  m_Father: {fileID: 1221192067}
+  m_Father: {fileID: 948381865}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 150, y: 50}
+  m_AnchoredPosition: {x: 0, y: -300}
   m_SizeDelta: {x: 300, y: 140}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &720143184
@@ -3354,12 +3354,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2097550503}
         m_TargetAssemblyTypeName: DeckMakerController, Assembly-CSharp
-        m_MethodName: MageAdd
-        m_Mode: 1
+        m_MethodName: AddCard
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 5
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3485,9 +3485,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1131119714}
-        m_TargetAssemblyTypeName: "Gu\u0131Controller, Assembly-CSharp"
-        m_MethodName: ResLeftButton
+      - m_Target: {fileID: 1221192068}
+        m_TargetAssemblyTypeName: OptionsController, Assembly-CSharp
+        m_MethodName: LeftResolutionButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3647,8 +3647,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1131119714}
-        m_TargetAssemblyTypeName: "Gu\u0131Controller, Assembly-CSharp"
+      - m_Target: {fileID: 1221192068}
+        m_TargetAssemblyTypeName: OptionsController, Assembly-CSharp
         m_MethodName: MusicVolumeSet
         m_Mode: 1
         m_Arguments:
@@ -3743,12 +3743,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2097550503}
         m_TargetAssemblyTypeName: DeckMakerController, Assembly-CSharp
-        m_MethodName: OceanAdd
-        m_Mode: 1
+        m_MethodName: AddCard
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3790,81 +3790,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 795050101}
-  m_CullTransparentMesh: 1
---- !u!1 &803912555
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 803912556}
-  - component: {fileID: 803912558}
-  - component: {fileID: 803912557}
-  m_Layer: 5
-  m_Name: SelectedCardImage2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &803912556
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 803912555}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1458109372}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &803912557
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 803912555}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 6573717335437068505, guid: a24badb2d6014714bbdd38580dffb2e1, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &803912558
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 803912555}
   m_CullTransparentMesh: 1
 --- !u!1 &821054470
 GameObject:
@@ -3954,6 +3879,7 @@ GameObject:
   - component: {fileID: 873491047}
   - component: {fileID: 873491046}
   - component: {fileID: 873491045}
+  - component: {fileID: 873491049}
   m_Layer: 5
   m_Name: MenuCanvas
   m_TagString: Untagged
@@ -4038,11 +3964,11 @@ RectTransform:
   m_Children:
   - {fileID: 1096780140}
   - {fileID: 1690252994}
-  - {fileID: 137260448}
   - {fileID: 1672068386}
   - {fileID: 505300134}
-  - {fileID: 1858613895}
+  - {fileID: 137260448}
   - {fileID: 1991245276}
+  - {fileID: 1858613895}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4050,6 +3976,34 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &873491049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873491044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8577fa76d15978647a064bf52681ba08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonList:
+  - name: Play
+    button: {fileID: 1690252995}
+  - name: Options
+    button: {fileID: 1672068388}
+  - name: Exit
+    button: {fileID: 505300136}
+  - name: Deck
+    button: {fileID: 137260450}
+  - name: LinkedIn
+    button: {fileID: 1991245277}
+  SceneName: GameScene
+  deckErrorText: {fileID: 1858613894}
+  deckErrorTimer: 2.3
+  OptionsPanel: {fileID: 1221192063}
+  DeckControlPanel: {fileID: 2097550498}
 --- !u!1 &882464725
 GameObject:
   m_ObjectHideFlags: 0
@@ -4241,12 +4195,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2097550503}
         m_TargetAssemblyTypeName: DeckMakerController, Assembly-CSharp
-        m_MethodName: LightningAdd
-        m_Mode: 1
+        m_MethodName: AddCard
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4373,12 +4327,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2097550503}
         m_TargetAssemblyTypeName: DeckMakerController, Assembly-CSharp
-        m_MethodName: OceanRemove
-        m_Mode: 1
+        m_MethodName: RemoveCard
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4586,7 +4540,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 393160827}
+  - {fileID: 720143183}
+  - {fileID: 689441480}
   m_Father: {fileID: 1221192067}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
@@ -4929,453 +4886,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1096780139}
   m_CullTransparentMesh: 1
---- !u!1 &1100966853
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1100966854}
-  - component: {fileID: 1100966856}
-  - component: {fileID: 1100966855}
-  m_Layer: 5
-  m_Name: CardFrame1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1100966854
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1100966853}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 3, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1983084934}
-  m_Father: {fileID: 2097550502}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -654, y: 300}
-  m_SizeDelta: {x: 109.0929, y: 106.0133}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1100966855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1100966853}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: -1306988184310151341, guid: b1fbe0afc340a7b42a1f0c75578bd7ba, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1100966856
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1100966853}
-  m_CullTransparentMesh: 1
---- !u!1 &1131119713
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1131119715}
-  - component: {fileID: 1131119714}
-  - component: {fileID: 1131119716}
-  - component: {fileID: 1131119717}
-  - component: {fileID: 1131119718}
-  m_Layer: 0
-  m_Name: "Gu\u0131Controller"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1131119714
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1131119713}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b944fa768d96f4345813e2caba9b483d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SceneName: GameScene
-  PlayButtonObject: {fileID: 1690252993}
-  OptionsButtonObject: {fileID: 1672068385}
-  ExitButtonObject: {fileID: 505300133}
-  CloseButtonObject: {fileID: 1920823865}
-  ApplyButtonObject: {fileID: 458329644}
-  ResLeftButtonObject: {fileID: 788144946}
-  ResRightButtonObject: {fileID: 1301614095}
-  OptionsCanvas: {fileID: 1221192063}
-  fullscreenToggle: {fileID: 1498883823}
-  vsyncToggle: {fileID: 312302335}
-  Mixer: {fileID: 24100000, guid: 9715cb237a6128c459f164ea1b16148e, type: 2}
-  MasterVolumeSlider: {fileID: 160755005}
-  MusicVolumeSlider: {fileID: 794625092}
-  SFXVolumeSlider: {fileID: 377602851}
-  resolutionsText: {fileID: 1903083893}
-  resolutions:
-  - Horizontal: 2560
-    Vertical: 1440
-  - Horizontal: 1920
-    Vertical: 1080
-  - Horizontal: 1440
-    Vertical: 900
-  - Horizontal: 1366
-    Vertical: 768
-  - Horizontal: 1280
-    Vertical: 720
-  - Horizontal: 1024
-    Vertical: 768
-  DeckControllCanvas: {fileID: 2097550498}
-  DeckErrorText: {fileID: 1858613894}
-  audioSource: {fileID: 1131119717}
-  audioSource2: {fileID: 1131119718}
---- !u!4 &1131119715
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1131119713}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 960, y: 540, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &1131119716
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1131119713}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -3639091621972348329, guid: 9715cb237a6128c459f164ea1b16148e, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 4154660aa8587814595d0383209ed7b0, type: 3}
-  m_Resource: {fileID: 8300000, guid: 4154660aa8587814595d0383209ed7b0, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!82 &1131119717
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1131119713}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -5290278058770972146, guid: 9715cb237a6128c459f164ea1b16148e, type: 2}
-  m_audioClip: {fileID: 8300000, guid: c00536b4fbd437941bd66050fb2b4197, type: 3}
-  m_Resource: {fileID: 8300000, guid: c00536b4fbd437941bd66050fb2b4197, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 0.5
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!82 &1131119718
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1131119713}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -5290278058770972146, guid: 9715cb237a6128c459f164ea1b16148e, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 94d074d3ef6036d4fbafc9a50a7179c6, type: 3}
-  m_Resource: {fileID: 8300000, guid: 94d074d3ef6036d4fbafc9a50a7179c6, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &1136828695
 GameObject:
   m_ObjectHideFlags: 0
@@ -5460,12 +4970,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2097550503}
         m_TargetAssemblyTypeName: DeckMakerController, Assembly-CSharp
-        m_MethodName: IceRemove
-        m_Mode: 1
+        m_MethodName: RemoveCard
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -5922,6 +5432,7 @@ GameObject:
   - component: {fileID: 1221192066}
   - component: {fileID: 1221192065}
   - component: {fileID: 1221192064}
+  - component: {fileID: 1221192068}
   m_Layer: 5
   m_Name: OptionCanvas
   m_TagString: Untagged
@@ -6006,13 +5517,7 @@ RectTransform:
   m_Children:
   - {fileID: 1856417790}
   - {fileID: 948381865}
-  - {fileID: 393160827}
-  - {fileID: 720143183}
-  - {fileID: 689441480}
   - {fileID: 1279967608}
-  - {fileID: 350810752}
-  - {fileID: 1612151787}
-  - {fileID: 78996363}
   - {fileID: 1920823866}
   - {fileID: 458329645}
   m_Father: {fileID: 0}
@@ -6022,6 +5527,49 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1221192068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221192063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841789437957eff41bb0b5e99ea66171, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  optionsPanel: {fileID: 1221192063}
+  fullscreenToggle: {fileID: 1498883823}
+  vsyncToggle: {fileID: 312302335}
+  leftResButton: {fileID: 788144949}
+  rightResButton: {fileID: 1301614098}
+  resolutionsText: {fileID: 1903083893}
+  resolutions:
+  - name: '2560 x 1440 '
+    Horizontal: 2560
+    Vertical: 1440
+  - name: '1920 x 1080 '
+    Horizontal: 1920
+    Vertical: 1080
+  - name: 1440 x 900
+    Horizontal: 1440
+    Vertical: 900
+  - name: '1366 x 768 '
+    Horizontal: 1366
+    Vertical: 768
+  - name: 1280 x 720
+    Horizontal: 1280
+    Vertical: 720
+  - name: 1024 x 768
+    Horizontal: 1024
+    Vertical: 768
+  Mixer: {fileID: 24100000, guid: 9715cb237a6128c459f164ea1b16148e, type: 2}
+  MasterVolumeSlider: {fileID: 160755005}
+  MusicVolumeSlider: {fileID: 794625092}
+  SFXVolumeSlider: {fileID: 377602851}
+  applyButton: {fileID: 458329647}
+  closeButton: {fileID: 1920823868}
 --- !u!1 &1227243985
 GameObject:
   m_ObjectHideFlags: 0
@@ -6149,12 +5697,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2097550503}
         m_TargetAssemblyTypeName: DeckMakerController, Assembly-CSharp
-        m_MethodName: LightningRemove
-        m_Mode: 1
+        m_MethodName: RemoveCard
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -6226,7 +5774,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 350810752}
+  - {fileID: 1612151787}
+  - {fileID: 78996363}
   m_Father: {fileID: 1221192067}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
@@ -6355,9 +5906,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1131119714}
-        m_TargetAssemblyTypeName: "Gu\u0131Controller, Assembly-CSharp"
-        m_MethodName: ResRightButton
+      - m_Target: {fileID: 1221192068}
+        m_TargetAssemblyTypeName: OptionsController, Assembly-CSharp
+        m_MethodName: RightResolutionButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6662,12 +6213,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2097550503}
         m_TargetAssemblyTypeName: DeckMakerController, Assembly-CSharp
-        m_MethodName: GhostAdd
-        m_Mode: 1
+        m_MethodName: AddCard
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 7
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -7074,12 +6625,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2097550503}
         m_TargetAssemblyTypeName: DeckMakerController, Assembly-CSharp
-        m_MethodName: IceAdd
-        m_Mode: 1
+        m_MethodName: AddCard
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -7334,82 +6885,6 @@ RectTransform:
   m_AnchoredPosition: {x: -656, y: -189.3475}
   m_SizeDelta: {x: 294, y: 81.305}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1458109371
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1458109372}
-  - component: {fileID: 1458109374}
-  - component: {fileID: 1458109373}
-  m_Layer: 5
-  m_Name: CardFrame2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1458109372
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1458109371}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 3, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 803912556}
-  m_Father: {fileID: 2097550502}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -654, y: -43}
-  m_SizeDelta: {x: 109.0929, y: 106.0133}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1458109373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1458109371}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: -1306988184310151341, guid: b1fbe0afc340a7b42a1f0c75578bd7ba, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1458109374
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1458109371}
-  m_CullTransparentMesh: 1
 --- !u!1 &1498883821
 GameObject:
   m_ObjectHideFlags: 0
@@ -7579,8 +7054,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2097550503}
         m_TargetAssemblyTypeName: DeckMakerController, Assembly-CSharp
-        m_MethodName: NatureAdd
-        m_Mode: 1
+        m_MethodName: AddCard
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -7821,12 +7296,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2097550503}
         m_TargetAssemblyTypeName: DeckMakerController, Assembly-CSharp
-        m_MethodName: GhostRemove
-        m_Mode: 1
+        m_MethodName: RemoveCard
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 7
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -8108,12 +7583,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2097550503}
         m_TargetAssemblyTypeName: DeckMakerController, Assembly-CSharp
-        m_MethodName: FireRemove
-        m_Mode: 1
+        m_MethodName: RemoveCard
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -8256,17 +7731,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1612151786}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 794625091}
-  m_Father: {fileID: 1221192067}
+  m_Father: {fileID: 1279967608}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 1100, y: 50}
+  m_AnchoredPosition: {x: 0, y: -300}
   m_SizeDelta: {x: 300, y: 140}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1612151788
@@ -8412,8 +7887,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1131119714}
-        m_TargetAssemblyTypeName: "Gu\u0131Controller, Assembly-CSharp"
+      - m_Target: {fileID: 873491049}
+        m_TargetAssemblyTypeName: MainMenuUIController, Assembly-CSharp
         m_MethodName: OptionsButton
         m_Mode: 1
         m_Arguments:
@@ -8697,8 +8172,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1131119714}
-        m_TargetAssemblyTypeName: "Gu\u0131Controller, Assembly-CSharp"
+      - m_Target: {fileID: 873491049}
+        m_TargetAssemblyTypeName: MainMenuUIController, Assembly-CSharp
         m_MethodName: PlayButton
         m_Mode: 1
         m_Arguments:
@@ -8853,12 +8328,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2097550503}
         m_TargetAssemblyTypeName: DeckMakerController, Assembly-CSharp
-        m_MethodName: CrownRemove
-        m_Mode: 1
+        m_MethodName: RemoveCard
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -9324,12 +8799,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2097550503}
         m_TargetAssemblyTypeName: DeckMakerController, Assembly-CSharp
-        m_MethodName: MageRemove
-        m_Mode: 1
+        m_MethodName: RemoveCard
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 5
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -9805,9 +9280,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1131119714}
-        m_TargetAssemblyTypeName: "Gu\u0131Controller, Assembly-CSharp"
-        m_MethodName: CloseButton
+      - m_Target: {fileID: 1221192068}
+        m_TargetAssemblyTypeName: OptionsController, Assembly-CSharp
+        m_MethodName: Close
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9930,81 +9405,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1980999358}
   m_CullTransparentMesh: 1
---- !u!1 &1983084933
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1983084934}
-  - component: {fileID: 1983084936}
-  - component: {fileID: 1983084935}
-  m_Layer: 5
-  m_Name: SelectedCardImage1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1983084934
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1983084933}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1100966854}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1983084935
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1983084933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 6573717335437068505, guid: a24badb2d6014714bbdd38580dffb2e1, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1983084936
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1983084933}
-  m_CullTransparentMesh: 1
 --- !u!1 &1991245275
 GameObject:
   m_ObjectHideFlags: 0
@@ -10087,8 +9487,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1131119714}
-        m_TargetAssemblyTypeName: "Gu\u0131Controller, Assembly-CSharp"
+      - m_Target: {fileID: 873491049}
+        m_TargetAssemblyTypeName: MainMenuUIController, Assembly-CSharp
         m_MethodName: OpenLinkedIn
         m_Mode: 5
         m_Arguments:
@@ -10493,8 +9893,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2097550503}
         m_TargetAssemblyTypeName: DeckMakerController, Assembly-CSharp
-        m_MethodName: NatureRemove
-        m_Mode: 1
+        m_MethodName: RemoveCard
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -10554,7 +9954,6 @@ GameObject:
   - component: {fileID: 2097550500}
   - component: {fileID: 2097550499}
   - component: {fileID: 2097550503}
-  - component: {fileID: 2097550504}
   m_Layer: 5
   m_Name: DeckMakerControlCanvas
   m_TagString: Untagged
@@ -10639,11 +10038,9 @@ RectTransform:
   m_Children:
   - {fileID: 1585307844}
   - {fileID: 1227243986}
+  - {fileID: 1759794922}
   - {fileID: 115881964}
   - {fileID: 1582185562}
-  - {fileID: 1100966854}
-  - {fileID: 1458109372}
-  - {fileID: 1759794922}
   - {fileID: 1455068093}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10664,301 +10061,205 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52b587c9b6bc9a24c9329fdd7a5f0f79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  natureDeck:
-  - {fileID: 11400000, guid: e7b5ca329ca4eef4cb3f520f28f15383, type: 2}
-  - {fileID: 11400000, guid: 7eb52b66a3517f44ebddba4e893b6599, type: 2}
-  - {fileID: 11400000, guid: 55088cb6bd3af56479cbd41d1f956743, type: 2}
-  - {fileID: 11400000, guid: 3d5cd7854d3df65448a2846534f59ca5, type: 2}
-  - {fileID: 11400000, guid: fa4128519ae9e464487b17bb15f1d90c, type: 2}
-  - {fileID: 11400000, guid: d0c9ded842ea4344e80ce37f796f4496, type: 2}
-  - {fileID: 11400000, guid: 46a6129629308234f8ec53565651be33, type: 2}
-  - {fileID: 11400000, guid: b5a57a2961e431e43ba6b5270cc89a65, type: 2}
-  - {fileID: 11400000, guid: 3985819bfcc4fbc49ac1bcf61a72fb76, type: 2}
-  - {fileID: 11400000, guid: 7213d0fab0aa2754ba854037b5842858, type: 2}
-  - {fileID: 11400000, guid: ac7805fa834e664468fb220dd2054564, type: 2}
-  - {fileID: 11400000, guid: 44e8c83ba6440ae4db09139f1c040eaa, type: 2}
-  - {fileID: 11400000, guid: d048e019632a6c64ab5ca01daf0e043f, type: 2}
-  - {fileID: 11400000, guid: b90e7ae1ad53f884397e00fe52245d25, type: 2}
-  - {fileID: 11400000, guid: a50034b723d60db40a6fa29a129762ad, type: 2}
-  - {fileID: 11400000, guid: 794dc6be0105ee446a23891c1728b9d9, type: 2}
-  - {fileID: 11400000, guid: 9d33c1f60dfe74742be7e69bc7b054b3, type: 2}
-  - {fileID: 11400000, guid: 7ba483c8268581c409ccd5f395eac03c, type: 2}
-  - {fileID: 11400000, guid: 04a760df9b5a24948853fe98804208d5, type: 2}
-  - {fileID: 11400000, guid: 4863521a6526e5d4687a108850984b0a, type: 2}
-  lightningDeck:
-  - {fileID: 11400000, guid: db52d998b177e324092dfc93ad9f89f1, type: 2}
-  - {fileID: 11400000, guid: b18ec28ee9adae84784e3a7ddb6a8e4e, type: 2}
-  - {fileID: 11400000, guid: 842b5ceb596e53b499b14a07c9fabed2, type: 2}
-  - {fileID: 11400000, guid: bfc0cd404ac08894ca3d1d98049a22de, type: 2}
-  - {fileID: 11400000, guid: bd5edd472230e1c49b5b7b331ded24a5, type: 2}
-  - {fileID: 11400000, guid: 2d2b2471db99e044886a281f8ac9f54a, type: 2}
-  - {fileID: 11400000, guid: 255a712e64faa7547af911003eafa9e1, type: 2}
-  - {fileID: 11400000, guid: 71b759f7022e87244a7180bddbff5601, type: 2}
-  - {fileID: 11400000, guid: 9fd8fe4e2efa8df439b0f68a73a79877, type: 2}
-  - {fileID: 11400000, guid: 6a9ccba66ecfdb5449ac385d30c0e80f, type: 2}
-  - {fileID: 11400000, guid: 0cd1e44355398814c9db46de87930bd2, type: 2}
-  - {fileID: 11400000, guid: 3dfe1ef58b18934479002b0346dcd923, type: 2}
-  - {fileID: 11400000, guid: 5833e077a7285ac4885b97f717362677, type: 2}
-  - {fileID: 11400000, guid: b6af7a39535ded147bd00177e7f2b84d, type: 2}
-  - {fileID: 11400000, guid: 7b8417b3f29c57c41b49ef1c9448b0aa, type: 2}
-  - {fileID: 11400000, guid: 797f0097f8bbd0440a38b9e34dfb06fd, type: 2}
-  - {fileID: 11400000, guid: 15575ed649ca1974396987e2c8ea76ac, type: 2}
-  - {fileID: 11400000, guid: 6d3ff3e5c9ed0754ab6b0a3ee66dc12e, type: 2}
-  - {fileID: 11400000, guid: f8d61a2da3eb0924e82e03f1d9284382, type: 2}
-  - {fileID: 11400000, guid: a7c87f9bac21f624bafc035eb5bf5d19, type: 2}
-  fireDeck:
-  - {fileID: 11400000, guid: 703d13840714c7846b1357f9d3159750, type: 2}
-  - {fileID: 11400000, guid: 636aa3e18ffba9748866c6f160e9f2db, type: 2}
-  - {fileID: 11400000, guid: 9955c5576a79f3944bbacbdf87e8800c, type: 2}
-  - {fileID: 11400000, guid: 67c3d41adb6ed0843a270203a3f870fc, type: 2}
-  - {fileID: 11400000, guid: 6e38df7199aa4f74998bdfc432deeb41, type: 2}
-  - {fileID: 11400000, guid: 20eb4944e39c195438147b62bdfd0443, type: 2}
-  - {fileID: 11400000, guid: 2ba39b040396ec2469e253c48b2bfcae, type: 2}
-  - {fileID: 11400000, guid: 4f1ecd7a8ffce2144b102128642e31e2, type: 2}
-  - {fileID: 11400000, guid: 4fd8e055bd0d6ae429e22e8bce2abe7f, type: 2}
-  - {fileID: 11400000, guid: 9f9a2ef490a4cb04da2c70e961fc9bf3, type: 2}
-  - {fileID: 11400000, guid: 1cc1f2dccb7078149872e8088b9c84d1, type: 2}
-  - {fileID: 11400000, guid: b3b8ab2e70b50844cadebd760d6ac366, type: 2}
-  - {fileID: 11400000, guid: ab2a9f4cd4b5a96469408038c37a94c3, type: 2}
-  - {fileID: 11400000, guid: c3adb8775efe61e45ab9b49c3f7e94d7, type: 2}
-  - {fileID: 11400000, guid: 36bce8520cd0371498c43e2e1bc1c0be, type: 2}
-  - {fileID: 11400000, guid: d606a9cbb33b5e04b85e0c9a12b4bbe8, type: 2}
-  - {fileID: 11400000, guid: 9aacfc8af9debe64984ab56b271b8b0f, type: 2}
-  - {fileID: 11400000, guid: b79911ca993acf84f903aef2cfcbf682, type: 2}
-  - {fileID: 11400000, guid: b620919b344882c4a9ec77815a9d9094, type: 2}
-  - {fileID: 11400000, guid: 508ec0c8dcf27644290e1e61f7c4a196, type: 2}
-  iceDeck:
-  - {fileID: 11400000, guid: 202f9cd3be6c5944bab1a26e06edfb06, type: 2}
-  - {fileID: 11400000, guid: bf175459a66bc554c97c93247af69ea8, type: 2}
-  - {fileID: 11400000, guid: 5b7ffec319fb56b449521e0037ab528a, type: 2}
-  - {fileID: 11400000, guid: 8390de1bf400c4b41aac8e81ee9a0d3c, type: 2}
-  - {fileID: 11400000, guid: 9c3db630bb5cdd645a4dc12e1c98ed45, type: 2}
-  - {fileID: 11400000, guid: 4faea23ea2ae8524d86aa602f0868ee4, type: 2}
-  - {fileID: 11400000, guid: 67c8a2d2e5bac054fa90ab1c766aa630, type: 2}
-  - {fileID: 11400000, guid: efa4d7a995c7c504999b33b4584ba362, type: 2}
-  - {fileID: 11400000, guid: 622f877c8395ed94caa55926bfc9b388, type: 2}
-  - {fileID: 11400000, guid: d9537f5f2899ab04cb66a5121060aae5, type: 2}
-  - {fileID: 11400000, guid: fb97062047674c049b9f629c54e38ecb, type: 2}
-  - {fileID: 11400000, guid: f58cb8e8abd49844c93c7aae4180cd1e, type: 2}
-  - {fileID: 11400000, guid: 8e70ed83294c8cc4489985ec50199e68, type: 2}
-  - {fileID: 11400000, guid: 2e9846fc975beca4e8d0cc7d4284fb2f, type: 2}
-  - {fileID: 11400000, guid: 1ff6dada2e7421c48aaf92ceb7176565, type: 2}
-  - {fileID: 11400000, guid: b41efea5f9872714799e2abbb35a4f40, type: 2}
-  - {fileID: 11400000, guid: 99c0a49f772f3da4e8816bf87380fabc, type: 2}
-  - {fileID: 11400000, guid: b3a5697bfdd8d3244b8b4e0f85dd1bb3, type: 2}
-  - {fileID: 11400000, guid: 7da59c66a17e1db4ab79cee3297eb60a, type: 2}
-  - {fileID: 11400000, guid: 8517abf9426d6f342b2daf6bd591459c, type: 2}
-  crownDeck:
-  - {fileID: 11400000, guid: 779e20e79c6e00342b057f938e49ee28, type: 2}
-  - {fileID: 11400000, guid: febc7f9cc61851a439febd4d84e4e7fa, type: 2}
-  - {fileID: 11400000, guid: c7ab0d568c8d57b41aad74e3ad97db38, type: 2}
-  - {fileID: 11400000, guid: 04ece7052af015a49878b35695de837a, type: 2}
-  - {fileID: 11400000, guid: 76457f10e2874e04d9c9ef7f8ea5fd49, type: 2}
-  - {fileID: 11400000, guid: 2f39751cfdbd0a54e92c1da0fe5950d2, type: 2}
-  - {fileID: 11400000, guid: e9d4064efaf13f341b491449195c8b69, type: 2}
-  - {fileID: 11400000, guid: 88a109c6840faae498307dc44994bc10, type: 2}
-  - {fileID: 11400000, guid: 804d0254c79901d43bf1a2dcf6aa985d, type: 2}
-  - {fileID: 11400000, guid: e0d7236b767e14f43922b12d9507cf88, type: 2}
-  - {fileID: 11400000, guid: b2042784eb02fe4428f02d32c8b48594, type: 2}
-  - {fileID: 11400000, guid: 1e916f3109147e14baf7b3ea168c50e1, type: 2}
-  - {fileID: 11400000, guid: 2b94457ef18b2a946ba6968bc43aafca, type: 2}
-  - {fileID: 11400000, guid: 96d89b36bf8db064d81b6bf149b3687a, type: 2}
-  - {fileID: 11400000, guid: 872abefc5e340bc419a063c37e647c84, type: 2}
-  - {fileID: 11400000, guid: 362b443272c1bbf4b838b778107f2e06, type: 2}
-  - {fileID: 11400000, guid: 6411be518b1e1af48adbdeeab240b1be, type: 2}
-  - {fileID: 11400000, guid: d509a4de52a315943bcb0081eba93c07, type: 2}
-  - {fileID: 11400000, guid: 44e069e8440ee764cb146fec0dc0cf12, type: 2}
-  - {fileID: 11400000, guid: fd8596e5530b0cd4db8b7f96ee1e5b19, type: 2}
-  mageDeck:
-  - {fileID: 11400000, guid: 194a3d6f23174594197e06fde7908952, type: 2}
-  - {fileID: 11400000, guid: 8ba282e665d849a42aa8db9f684d893d, type: 2}
-  - {fileID: 11400000, guid: aba3400ecb6a0324dbf6e63fe342a4a1, type: 2}
-  - {fileID: 11400000, guid: e64206401f891904788df23fc6366e06, type: 2}
-  - {fileID: 11400000, guid: 1f0030f5813164a43b047536ea9a64d4, type: 2}
-  - {fileID: 11400000, guid: 2faf37a018f257e4b8984b61ae02d2f1, type: 2}
-  - {fileID: 11400000, guid: 90bf74c19538b5e40a53b1574fe83e01, type: 2}
-  - {fileID: 11400000, guid: 8dd7384e08013e049866bf677a4b4d5d, type: 2}
-  - {fileID: 11400000, guid: eda0c02b9d552dd43b141a4e76f1a475, type: 2}
-  - {fileID: 11400000, guid: 54c550ad5ab68f24b8b946bed26d1640, type: 2}
-  - {fileID: 11400000, guid: fd44f69b48bc9f448945b0f08308a5cf, type: 2}
-  - {fileID: 11400000, guid: baa4c7e387b370f468f5dd4abdb7fc9b, type: 2}
-  - {fileID: 11400000, guid: 206b97e4caed56d40a5627ab0fbfef4c, type: 2}
-  - {fileID: 11400000, guid: cab5a2f8c83278c4f9bddc159ffe96ed, type: 2}
-  - {fileID: 11400000, guid: 9ef69bb6e64881642a01adcafd9d7fdc, type: 2}
-  - {fileID: 11400000, guid: 33861379387b6d74aba4278e8578563d, type: 2}
-  - {fileID: 11400000, guid: c64b567e196635441ba5a1f9a8bc8478, type: 2}
-  - {fileID: 11400000, guid: 9cb3ce413600ba340bd6b8fdb24b474d, type: 2}
-  - {fileID: 11400000, guid: 64458fe0743e03f439549c71ba1c471f, type: 2}
-  - {fileID: 11400000, guid: 08b18f7ab4c53cb4192107dfe6a8ea33, type: 2}
-  oceanDeck:
-  - {fileID: 11400000, guid: 4d5484580e3b81248a3dfa8477c238c9, type: 2}
-  - {fileID: 11400000, guid: a9ee66b715ede144dbe04fc2e4ee0fdc, type: 2}
-  - {fileID: 11400000, guid: 811156a275203ad49b983c83a383d154, type: 2}
-  - {fileID: 11400000, guid: 4b92981f03ff95f4d83dd35a13cd612b, type: 2}
-  - {fileID: 11400000, guid: 791b3144208506f4e9000283975c5512, type: 2}
-  - {fileID: 11400000, guid: 96c542d463ca4aa4ea9bbc957ab4b293, type: 2}
-  - {fileID: 11400000, guid: e5a3aabe57e98e24b98721c9e35097b2, type: 2}
-  - {fileID: 11400000, guid: 2f8361c0ec668964c94881560086780b, type: 2}
-  - {fileID: 11400000, guid: 61179e7eb6585de4095cdc337341e058, type: 2}
-  - {fileID: 11400000, guid: e3a05d4f19b6b19499cd5a6a5a228215, type: 2}
-  - {fileID: 11400000, guid: 4a8924d38b69c1c47a613513ab07741b, type: 2}
-  - {fileID: 11400000, guid: ad9a65358ea24d74cb6d417d23ef75e0, type: 2}
-  - {fileID: 11400000, guid: 74de0628141eac344acb838da8c32dc7, type: 2}
-  - {fileID: 11400000, guid: e3cafdb20d73a1046ae2edf4c9aa8514, type: 2}
-  - {fileID: 11400000, guid: abe04c657a0a8b046923e72030bfe571, type: 2}
-  - {fileID: 11400000, guid: 23b75ddef5c9aef43a59bf68303d251d, type: 2}
-  - {fileID: 11400000, guid: 98be50791c3883b4fb96bd31d2cbcb6e, type: 2}
-  - {fileID: 11400000, guid: 20a94101456133041a7fcc6bc8876f08, type: 2}
-  - {fileID: 11400000, guid: 6cc8b28c18fd25a499fa09518d5b3e45, type: 2}
-  - {fileID: 11400000, guid: b49afde9bae67144caf435a9ea9c414d, type: 2}
-  ghostDeck:
-  - {fileID: 11400000, guid: 739d138d559347742a354e6d599e8940, type: 2}
-  - {fileID: 11400000, guid: 0e94e87ede7873f4f9f7190a0e5d4449, type: 2}
-  - {fileID: 11400000, guid: e113824e128fe7a428f99087fe30e578, type: 2}
-  - {fileID: 11400000, guid: 41473b0bb729cc04ea62cb921f7bd980, type: 2}
-  - {fileID: 11400000, guid: 37109ac91ba1c334da620014350e7c6d, type: 2}
-  - {fileID: 11400000, guid: 0ae7aeabc58e4ce4798d3988f107d38d, type: 2}
-  - {fileID: 11400000, guid: d3b4e7baa8fd7c244b641255ae02f837, type: 2}
-  - {fileID: 11400000, guid: a834ade02aedef34390d6374d71ff4e9, type: 2}
-  - {fileID: 11400000, guid: fac423a6b6865334ba20de5c4d3616e7, type: 2}
-  - {fileID: 11400000, guid: c94d36a43e84f924d9063dbc6a73e60e, type: 2}
-  - {fileID: 11400000, guid: 120f8a5b25013ee4192697d10b52bd9d, type: 2}
-  - {fileID: 11400000, guid: 1b035818030192f4991f79bbd1ec8bfd, type: 2}
-  - {fileID: 11400000, guid: 61a9b9bff48c5fd478ac120ff7eb1a74, type: 2}
-  - {fileID: 11400000, guid: dcf3bbac89fc4564386c99d4a21a8fae, type: 2}
-  - {fileID: 11400000, guid: 36ea16a9fa0a36849bf5f46ffd4e57a0, type: 2}
-  - {fileID: 11400000, guid: 53ad631e52f8a474ea0dffc531c67182, type: 2}
-  - {fileID: 11400000, guid: 8d3b02a21f8930843babb4476cdc325c, type: 2}
-  - {fileID: 11400000, guid: 295af0f2f6a86f54fabf30b1020a2e97, type: 2}
-  - {fileID: 11400000, guid: 65a7f47131af79c4db093e5b37e8c935, type: 2}
-  - {fileID: 11400000, guid: 26ba39f3a3e75af42854c75f04afcde5, type: 2}
-  natureDeckHold: []
-  lightningDeckHold: []
-  fireDeckHold: []
-  iceDeckHold: []
-  crownDeckHold: []
-  mageDeckHold: []
-  oceanDeckHold: []
-  ghostDeckHold: []
-  natureCount: 0
-  lightningCount: 0
-  fireCount: 0
-  iceCount: 0
-  crownCount: 0
-  mageCount: 0
-  oceanCount: 0
-  ghostCount: 0
+  deckMakerPanel: {fileID: 2097550498}
+  allThemes:
+  - name: Nature
+    cardCount: 0
+    cardCountText: {fileID: 486701515}
+    cards:
+    - {fileID: 11400000, guid: e7b5ca329ca4eef4cb3f520f28f15383, type: 2}
+    - {fileID: 11400000, guid: 7eb52b66a3517f44ebddba4e893b6599, type: 2}
+    - {fileID: 11400000, guid: 55088cb6bd3af56479cbd41d1f956743, type: 2}
+    - {fileID: 11400000, guid: 3d5cd7854d3df65448a2846534f59ca5, type: 2}
+    - {fileID: 11400000, guid: fa4128519ae9e464487b17bb15f1d90c, type: 2}
+    - {fileID: 11400000, guid: d0c9ded842ea4344e80ce37f796f4496, type: 2}
+    - {fileID: 11400000, guid: 46a6129629308234f8ec53565651be33, type: 2}
+    - {fileID: 11400000, guid: b5a57a2961e431e43ba6b5270cc89a65, type: 2}
+    - {fileID: 11400000, guid: 3985819bfcc4fbc49ac1bcf61a72fb76, type: 2}
+    - {fileID: 11400000, guid: 7213d0fab0aa2754ba854037b5842858, type: 2}
+    - {fileID: 11400000, guid: ac7805fa834e664468fb220dd2054564, type: 2}
+    - {fileID: 11400000, guid: 44e8c83ba6440ae4db09139f1c040eaa, type: 2}
+    - {fileID: 11400000, guid: d048e019632a6c64ab5ca01daf0e043f, type: 2}
+    - {fileID: 11400000, guid: b90e7ae1ad53f884397e00fe52245d25, type: 2}
+    - {fileID: 11400000, guid: a50034b723d60db40a6fa29a129762ad, type: 2}
+    - {fileID: 11400000, guid: 794dc6be0105ee446a23891c1728b9d9, type: 2}
+    - {fileID: 11400000, guid: 9d33c1f60dfe74742be7e69bc7b054b3, type: 2}
+    - {fileID: 11400000, guid: 7ba483c8268581c409ccd5f395eac03c, type: 2}
+    - {fileID: 11400000, guid: 04a760df9b5a24948853fe98804208d5, type: 2}
+    - {fileID: 11400000, guid: 4863521a6526e5d4687a108850984b0a, type: 2}
+  - name: Lightning
+    cardCount: 0
+    cardCountText: {fileID: 473465778}
+    cards:
+    - {fileID: 11400000, guid: db52d998b177e324092dfc93ad9f89f1, type: 2}
+    - {fileID: 11400000, guid: b18ec28ee9adae84784e3a7ddb6a8e4e, type: 2}
+    - {fileID: 11400000, guid: 842b5ceb596e53b499b14a07c9fabed2, type: 2}
+    - {fileID: 11400000, guid: bfc0cd404ac08894ca3d1d98049a22de, type: 2}
+    - {fileID: 11400000, guid: bd5edd472230e1c49b5b7b331ded24a5, type: 2}
+    - {fileID: 11400000, guid: 2d2b2471db99e044886a281f8ac9f54a, type: 2}
+    - {fileID: 11400000, guid: 255a712e64faa7547af911003eafa9e1, type: 2}
+    - {fileID: 11400000, guid: 71b759f7022e87244a7180bddbff5601, type: 2}
+    - {fileID: 11400000, guid: 9fd8fe4e2efa8df439b0f68a73a79877, type: 2}
+    - {fileID: 11400000, guid: 6a9ccba66ecfdb5449ac385d30c0e80f, type: 2}
+    - {fileID: 11400000, guid: 0cd1e44355398814c9db46de87930bd2, type: 2}
+    - {fileID: 11400000, guid: 3dfe1ef58b18934479002b0346dcd923, type: 2}
+    - {fileID: 11400000, guid: 5833e077a7285ac4885b97f717362677, type: 2}
+    - {fileID: 11400000, guid: b6af7a39535ded147bd00177e7f2b84d, type: 2}
+    - {fileID: 11400000, guid: 7b8417b3f29c57c41b49ef1c9448b0aa, type: 2}
+    - {fileID: 11400000, guid: 797f0097f8bbd0440a38b9e34dfb06fd, type: 2}
+    - {fileID: 11400000, guid: 15575ed649ca1974396987e2c8ea76ac, type: 2}
+    - {fileID: 11400000, guid: 6d3ff3e5c9ed0754ab6b0a3ee66dc12e, type: 2}
+    - {fileID: 11400000, guid: f8d61a2da3eb0924e82e03f1d9284382, type: 2}
+    - {fileID: 11400000, guid: a7c87f9bac21f624bafc035eb5bf5d19, type: 2}
+  - name: Fire
+    cardCount: 0
+    cardCountText: {fileID: 925667416}
+    cards:
+    - {fileID: 11400000, guid: 703d13840714c7846b1357f9d3159750, type: 2}
+    - {fileID: 11400000, guid: 636aa3e18ffba9748866c6f160e9f2db, type: 2}
+    - {fileID: 11400000, guid: 9955c5576a79f3944bbacbdf87e8800c, type: 2}
+    - {fileID: 11400000, guid: 67c3d41adb6ed0843a270203a3f870fc, type: 2}
+    - {fileID: 11400000, guid: 6e38df7199aa4f74998bdfc432deeb41, type: 2}
+    - {fileID: 11400000, guid: 20eb4944e39c195438147b62bdfd0443, type: 2}
+    - {fileID: 11400000, guid: 2ba39b040396ec2469e253c48b2bfcae, type: 2}
+    - {fileID: 11400000, guid: 4f1ecd7a8ffce2144b102128642e31e2, type: 2}
+    - {fileID: 11400000, guid: 4fd8e055bd0d6ae429e22e8bce2abe7f, type: 2}
+    - {fileID: 11400000, guid: 9f9a2ef490a4cb04da2c70e961fc9bf3, type: 2}
+    - {fileID: 11400000, guid: 1cc1f2dccb7078149872e8088b9c84d1, type: 2}
+    - {fileID: 11400000, guid: b3b8ab2e70b50844cadebd760d6ac366, type: 2}
+    - {fileID: 11400000, guid: ab2a9f4cd4b5a96469408038c37a94c3, type: 2}
+    - {fileID: 11400000, guid: c3adb8775efe61e45ab9b49c3f7e94d7, type: 2}
+    - {fileID: 11400000, guid: 36bce8520cd0371498c43e2e1bc1c0be, type: 2}
+    - {fileID: 11400000, guid: d606a9cbb33b5e04b85e0c9a12b4bbe8, type: 2}
+    - {fileID: 11400000, guid: 9aacfc8af9debe64984ab56b271b8b0f, type: 2}
+    - {fileID: 11400000, guid: b79911ca993acf84f903aef2cfcbf682, type: 2}
+    - {fileID: 11400000, guid: b620919b344882c4a9ec77815a9d9094, type: 2}
+    - {fileID: 11400000, guid: 508ec0c8dcf27644290e1e61f7c4a196, type: 2}
+  - name: Ice
+    cardCount: 0
+    cardCountText: {fileID: 571249824}
+    cards:
+    - {fileID: 11400000, guid: 202f9cd3be6c5944bab1a26e06edfb06, type: 2}
+    - {fileID: 11400000, guid: bf175459a66bc554c97c93247af69ea8, type: 2}
+    - {fileID: 11400000, guid: 5b7ffec319fb56b449521e0037ab528a, type: 2}
+    - {fileID: 11400000, guid: 8390de1bf400c4b41aac8e81ee9a0d3c, type: 2}
+    - {fileID: 11400000, guid: 9c3db630bb5cdd645a4dc12e1c98ed45, type: 2}
+    - {fileID: 11400000, guid: 4faea23ea2ae8524d86aa602f0868ee4, type: 2}
+    - {fileID: 11400000, guid: 67c8a2d2e5bac054fa90ab1c766aa630, type: 2}
+    - {fileID: 11400000, guid: efa4d7a995c7c504999b33b4584ba362, type: 2}
+    - {fileID: 11400000, guid: 622f877c8395ed94caa55926bfc9b388, type: 2}
+    - {fileID: 11400000, guid: d9537f5f2899ab04cb66a5121060aae5, type: 2}
+    - {fileID: 11400000, guid: fb97062047674c049b9f629c54e38ecb, type: 2}
+    - {fileID: 11400000, guid: f58cb8e8abd49844c93c7aae4180cd1e, type: 2}
+    - {fileID: 11400000, guid: 8e70ed83294c8cc4489985ec50199e68, type: 2}
+    - {fileID: 11400000, guid: 2e9846fc975beca4e8d0cc7d4284fb2f, type: 2}
+    - {fileID: 11400000, guid: 1ff6dada2e7421c48aaf92ceb7176565, type: 2}
+    - {fileID: 11400000, guid: b41efea5f9872714799e2abbb35a4f40, type: 2}
+    - {fileID: 11400000, guid: 99c0a49f772f3da4e8816bf87380fabc, type: 2}
+    - {fileID: 11400000, guid: b3a5697bfdd8d3244b8b4e0f85dd1bb3, type: 2}
+    - {fileID: 11400000, guid: 7da59c66a17e1db4ab79cee3297eb60a, type: 2}
+    - {fileID: 11400000, guid: 8517abf9426d6f342b2daf6bd591459c, type: 2}
+  - name: Crown
+    cardCount: 0
+    cardCountText: {fileID: 303622766}
+    cards:
+    - {fileID: 11400000, guid: 779e20e79c6e00342b057f938e49ee28, type: 2}
+    - {fileID: 11400000, guid: febc7f9cc61851a439febd4d84e4e7fa, type: 2}
+    - {fileID: 11400000, guid: c7ab0d568c8d57b41aad74e3ad97db38, type: 2}
+    - {fileID: 11400000, guid: 04ece7052af015a49878b35695de837a, type: 2}
+    - {fileID: 11400000, guid: 76457f10e2874e04d9c9ef7f8ea5fd49, type: 2}
+    - {fileID: 11400000, guid: 2f39751cfdbd0a54e92c1da0fe5950d2, type: 2}
+    - {fileID: 11400000, guid: e9d4064efaf13f341b491449195c8b69, type: 2}
+    - {fileID: 11400000, guid: 88a109c6840faae498307dc44994bc10, type: 2}
+    - {fileID: 11400000, guid: 804d0254c79901d43bf1a2dcf6aa985d, type: 2}
+    - {fileID: 11400000, guid: e0d7236b767e14f43922b12d9507cf88, type: 2}
+    - {fileID: 11400000, guid: b2042784eb02fe4428f02d32c8b48594, type: 2}
+    - {fileID: 11400000, guid: 1e916f3109147e14baf7b3ea168c50e1, type: 2}
+    - {fileID: 11400000, guid: 2b94457ef18b2a946ba6968bc43aafca, type: 2}
+    - {fileID: 11400000, guid: 96d89b36bf8db064d81b6bf149b3687a, type: 2}
+    - {fileID: 11400000, guid: 872abefc5e340bc419a063c37e647c84, type: 2}
+    - {fileID: 11400000, guid: 362b443272c1bbf4b838b778107f2e06, type: 2}
+    - {fileID: 11400000, guid: 6411be518b1e1af48adbdeeab240b1be, type: 2}
+    - {fileID: 11400000, guid: d509a4de52a315943bcb0081eba93c07, type: 2}
+    - {fileID: 11400000, guid: 44e069e8440ee764cb146fec0dc0cf12, type: 2}
+    - {fileID: 11400000, guid: fd8596e5530b0cd4db8b7f96ee1e5b19, type: 2}
+  - name: Mage
+    cardCount: 0
+    cardCountText: {fileID: 2016047803}
+    cards:
+    - {fileID: 11400000, guid: 194a3d6f23174594197e06fde7908952, type: 2}
+    - {fileID: 11400000, guid: 8ba282e665d849a42aa8db9f684d893d, type: 2}
+    - {fileID: 11400000, guid: aba3400ecb6a0324dbf6e63fe342a4a1, type: 2}
+    - {fileID: 11400000, guid: e64206401f891904788df23fc6366e06, type: 2}
+    - {fileID: 11400000, guid: 1f0030f5813164a43b047536ea9a64d4, type: 2}
+    - {fileID: 11400000, guid: 2faf37a018f257e4b8984b61ae02d2f1, type: 2}
+    - {fileID: 11400000, guid: 90bf74c19538b5e40a53b1574fe83e01, type: 2}
+    - {fileID: 11400000, guid: 8dd7384e08013e049866bf677a4b4d5d, type: 2}
+    - {fileID: 11400000, guid: eda0c02b9d552dd43b141a4e76f1a475, type: 2}
+    - {fileID: 11400000, guid: 54c550ad5ab68f24b8b946bed26d1640, type: 2}
+    - {fileID: 11400000, guid: fd44f69b48bc9f448945b0f08308a5cf, type: 2}
+    - {fileID: 11400000, guid: baa4c7e387b370f468f5dd4abdb7fc9b, type: 2}
+    - {fileID: 11400000, guid: 206b97e4caed56d40a5627ab0fbfef4c, type: 2}
+    - {fileID: 11400000, guid: cab5a2f8c83278c4f9bddc159ffe96ed, type: 2}
+    - {fileID: 11400000, guid: 9ef69bb6e64881642a01adcafd9d7fdc, type: 2}
+    - {fileID: 11400000, guid: 33861379387b6d74aba4278e8578563d, type: 2}
+    - {fileID: 11400000, guid: c64b567e196635441ba5a1f9a8bc8478, type: 2}
+    - {fileID: 11400000, guid: 9cb3ce413600ba340bd6b8fdb24b474d, type: 2}
+    - {fileID: 11400000, guid: 64458fe0743e03f439549c71ba1c471f, type: 2}
+    - {fileID: 11400000, guid: 08b18f7ab4c53cb4192107dfe6a8ea33, type: 2}
+  - name: Ocean
+    cardCount: 0
+    cardCountText: {fileID: 1998345534}
+    cards:
+    - {fileID: 11400000, guid: 4d5484580e3b81248a3dfa8477c238c9, type: 2}
+    - {fileID: 11400000, guid: a9ee66b715ede144dbe04fc2e4ee0fdc, type: 2}
+    - {fileID: 11400000, guid: 811156a275203ad49b983c83a383d154, type: 2}
+    - {fileID: 11400000, guid: 4b92981f03ff95f4d83dd35a13cd612b, type: 2}
+    - {fileID: 11400000, guid: 791b3144208506f4e9000283975c5512, type: 2}
+    - {fileID: 11400000, guid: 96c542d463ca4aa4ea9bbc957ab4b293, type: 2}
+    - {fileID: 11400000, guid: e5a3aabe57e98e24b98721c9e35097b2, type: 2}
+    - {fileID: 11400000, guid: 2f8361c0ec668964c94881560086780b, type: 2}
+    - {fileID: 11400000, guid: 61179e7eb6585de4095cdc337341e058, type: 2}
+    - {fileID: 11400000, guid: e3a05d4f19b6b19499cd5a6a5a228215, type: 2}
+    - {fileID: 11400000, guid: 4a8924d38b69c1c47a613513ab07741b, type: 2}
+    - {fileID: 11400000, guid: ad9a65358ea24d74cb6d417d23ef75e0, type: 2}
+    - {fileID: 11400000, guid: 74de0628141eac344acb838da8c32dc7, type: 2}
+    - {fileID: 11400000, guid: e3cafdb20d73a1046ae2edf4c9aa8514, type: 2}
+    - {fileID: 11400000, guid: abe04c657a0a8b046923e72030bfe571, type: 2}
+    - {fileID: 11400000, guid: 23b75ddef5c9aef43a59bf68303d251d, type: 2}
+    - {fileID: 11400000, guid: 98be50791c3883b4fb96bd31d2cbcb6e, type: 2}
+    - {fileID: 11400000, guid: 20a94101456133041a7fcc6bc8876f08, type: 2}
+    - {fileID: 11400000, guid: 6cc8b28c18fd25a499fa09518d5b3e45, type: 2}
+    - {fileID: 11400000, guid: b49afde9bae67144caf435a9ea9c414d, type: 2}
+  - name: Ghost
+    cardCount: 0
+    cardCountText: {fileID: 145162363}
+    cards:
+    - {fileID: 11400000, guid: 739d138d559347742a354e6d599e8940, type: 2}
+    - {fileID: 11400000, guid: 0e94e87ede7873f4f9f7190a0e5d4449, type: 2}
+    - {fileID: 11400000, guid: e113824e128fe7a428f99087fe30e578, type: 2}
+    - {fileID: 11400000, guid: 41473b0bb729cc04ea62cb921f7bd980, type: 2}
+    - {fileID: 11400000, guid: 37109ac91ba1c334da620014350e7c6d, type: 2}
+    - {fileID: 11400000, guid: 0ae7aeabc58e4ce4798d3988f107d38d, type: 2}
+    - {fileID: 11400000, guid: d3b4e7baa8fd7c244b641255ae02f837, type: 2}
+    - {fileID: 11400000, guid: a834ade02aedef34390d6374d71ff4e9, type: 2}
+    - {fileID: 11400000, guid: fac423a6b6865334ba20de5c4d3616e7, type: 2}
+    - {fileID: 11400000, guid: c94d36a43e84f924d9063dbc6a73e60e, type: 2}
+    - {fileID: 11400000, guid: 120f8a5b25013ee4192697d10b52bd9d, type: 2}
+    - {fileID: 11400000, guid: 1b035818030192f4991f79bbd1ec8bfd, type: 2}
+    - {fileID: 11400000, guid: 61a9b9bff48c5fd478ac120ff7eb1a74, type: 2}
+    - {fileID: 11400000, guid: dcf3bbac89fc4564386c99d4a21a8fae, type: 2}
+    - {fileID: 11400000, guid: 36ea16a9fa0a36849bf5f46ffd4e57a0, type: 2}
+    - {fileID: 11400000, guid: 53ad631e52f8a474ea0dffc531c67182, type: 2}
+    - {fileID: 11400000, guid: 8d3b02a21f8930843babb4476cdc325c, type: 2}
+    - {fileID: 11400000, guid: 295af0f2f6a86f54fabf30b1020a2e97, type: 2}
+    - {fileID: 11400000, guid: 65a7f47131af79c4db093e5b37e8c935, type: 2}
+    - {fileID: 11400000, guid: 26ba39f3a3e75af42854c75f04afcde5, type: 2}
   totalCount: 0
-  natureCountText: {fileID: 486701515}
-  lightningCountText: {fileID: 473465778}
-  fireCountText: {fileID: 925667416}
-  iceCountText: {fileID: 571249824}
-  crownCountText: {fileID: 303622766}
-  mageCountText: {fileID: 2016047803}
-  oceanCountText: {fileID: 1998345534}
-  ghostCountText: {fileID: 145162363}
   totalCountText: {fileID: 1216069338}
   maxCardPerTheme: 15
   maxTotalCard: 40
-  isApply: 0
-  applyError: {fileID: 1455068090}
---- !u!82 &2097550504
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2097550498}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -5290278058770972146, guid: 9715cb237a6128c459f164ea1b16148e, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 94d074d3ef6036d4fbafc9a50a7179c6, type: 3}
-  m_Resource: {fileID: 8300000, guid: 94d074d3ef6036d4fbafc9a50a7179c6, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
+  applyErrorText: {fileID: 1455068090}
 --- !u!1 &2134361224
 GameObject:
   m_ObjectHideFlags: 0
@@ -11043,12 +10344,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2097550503}
         m_TargetAssemblyTypeName: DeckMakerController, Assembly-CSharp
-        m_MethodName: FireAdd
-        m_Mode: 1
+        m_MethodName: AddCard
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -11100,7 +10401,6 @@ SceneRoots:
   - {fileID: 873491048}
   - {fileID: 1221192067}
   - {fileID: 2097550502}
-  - {fileID: 1136946785}
-  - {fileID: 1131119715}
   - {fileID: 1054237756}
   - {fileID: 1336613200}
+  - {fileID: 1136946785}
