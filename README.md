@@ -1,4 +1,4 @@
-# ⚔️ War Of The Elements: Card Strategy Game
+<img width="1585" height="888" alt="DeckBuilder1" src="https://github.com/user-attachments/assets/6dc4d4ed-e4ab-46db-bff2-d50efcf0279e" /># ⚔️ War Of The Elements: Card Strategy Game
 
 ![Unity](https://img.shields.io/badge/Unity-6000.0.29f1-000000?style=flat&logo=unity)
 ![C#](https://img.shields.io/badge/C%23-Scripting-239120?style=flat&logo=c-sharp)
@@ -52,9 +52,17 @@ Each element has a unique passive ability that defines its playstyle:
 
 ## 📸 Screenshots & Gameplay
 
+<div align="center">
+  <a href="https://www.linkedin.com/posts/erdogancolak_de%C4%9Ferli-linkedin-ba%C4%9Flant%C4%B1lar%C4%B1m-unity-kullanarak-activity-7279802233024638976-OCKT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD3OeJABrUqzthwfxiLdE5p2nSauQEkOXlc" target="_blank">
+    <img src="https://img.shields.io/badge/Watch_Gameplay_Video-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Watch Gameplay"/>
+  </a>
+</div>
+
+
 | Deck Builder | Combat Phase |
 | :---: | :---: |
-| ![DeckBuilder](LINK_TO_IMAGE_1) | ![Gameplay](LINK_TO_IMAGE_2) |
+| <img width="100%" alt="DeckBuilder1" src="https://github.com/user-attachments/assets/f6d624b0-c42a-43ed-abf3-a90ecf014c49" /> | <img width="100%" alt="Gameplay1" src="https://github.com/user-attachments/assets/ee57376b-0368-42ef-b8b7-d4f57fb88aee" /> |
+| <img width="100%" alt="DeckBuilder2" src="https://github.com/user-attachments/assets/2de195a7-8018-4d22-b9be-487cf17de8bc" /> | <img width="100%" alt="Gameplay2" src="https://github.com/user-attachments/assets/1102d28b-eb28-47ea-8380-db902369b816" /> |
 
 ---
 
