@@ -7,21 +7,10 @@ using System.Collections;
 
 public class GuıController : MonoBehaviour
 {
-    #region Instance - Awake
     public static GuıController instance;
-    private void Awake()
-    {
-        instance = this;
-    }
-    #endregion
-
-    [Header("Game Scene")]
     [SerializeField] private string SceneName;
     [Space]
-
-    [Header("Play Button")]
     [SerializeField] private GameObject PlayButtonObject;
-
     [SerializeField] private GameObject OptionsButtonObject;
     [SerializeField] private GameObject ExitButtonObject;
     [SerializeField] private GameObject CloseButtonObject;
@@ -40,7 +29,7 @@ public class GuıController : MonoBehaviour
     [SerializeField] private Slider SFXVolumeSlider;
     [Space]
     [SerializeField] private TMP_Text resolutionsText;
-    [SerializeField] private ResItem1[] resolutions;
+    [SerializeField] private ResItem[] resolutions;
     private int selectedResolutions;
     [Space]
     [SerializeField] private GameObject DeckControllCanvas;
@@ -49,7 +38,10 @@ public class GuıController : MonoBehaviour
     [Space]
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioSource audioSource2;
-    
+    private void Awake()
+    {
+        instance = this;
+    }
     private void Start()
     {
         selectedResolutions = 0;
@@ -58,18 +50,18 @@ public class GuıController : MonoBehaviour
     public void PlayButton()
     {
         ClickSFX();
-        //if (DeckControllCanvas.GetComponent<DeckMakerController>().isApply)
-        //{
-        //    Animator playAnimator = PlayButtonObject.GetComponent<Animator>();
-        //    playAnimator.SetTrigger("Clicked");
-        //    SceneManager.LoadScene(SceneName);
-        //}
-        //else
-        //{
-        //    audioSource2.Play();
-        //    DeckErrorText.SetActive(true);
-        //    StartCoroutine(deckErrorIE());
-        //}
+        if (DeckControllCanvas.GetComponent<DeckMakerController>().isApply)
+        {
+            Animator playAnimator = PlayButtonObject.GetComponent<Animator>();
+            playAnimator.SetTrigger("Clicked");
+            SceneManager.LoadScene(SceneName);
+        }
+        else
+        {
+            audioSource2.Play();    
+            DeckErrorText.SetActive(true);
+            StartCoroutine(deckErrorIE());
+        }
     }
     IEnumerator deckErrorIE()
     {
@@ -167,20 +159,16 @@ public class GuıController : MonoBehaviour
         playAnimator.SetTrigger("Clicked");
         DeckControllCanvas.SetActive(true);
     }
-    #region LinkedIn
+
     public void OpenLinkedIn(string url = "www.linkedin.com/in/erdogancolak")
     {
         ClickSFX();
         Application.OpenURL(url);
     }
-    #endregion
 }
-#region ResItem
 [System.Serializable]
-public class ResItem1
+public class ResItem
 {
-    public string name;
     public int Horizontal;
     public int Vertical;
 }
-#endregion
