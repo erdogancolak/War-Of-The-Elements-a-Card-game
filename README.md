@@ -1,0 +1,71 @@
+# ⚔️ War Of The Elements: Card Strategy Game
+
+![Unity](https://img.shields.io/badge/Unity-6000.0.29f1-000000?style=flat&logo=unity)
+![C#](https://img.shields.io/badge/C%23-Scripting-239120?style=flat&logo=c-sharp)
+![Status](https://img.shields.io/badge/Status-In%20Development-orange)
+
+> A turn-based strategy card game featuring a complex elemental system, custom deck-building logic, and data-driven architecture using **ScriptableObjects**.
+
+---
+
+## 📖 About The Project
+
+**War Of The Elements** is a digital card game where players build their own decks using 8 distinct elemental classes and battle against an AI opponent. The project was built to demonstrate **scalable game architecture** and **advanced UI management** in Unity.
+
+The core focus of this project is **Data-Driven Design**. By leveraging **ScriptableObjects**, all card data (Stats, Art, Mana Cost, Element Type) is decoupled from the code, making the system easy to expand and balance.
+
+---
+
+## 🎮 Key Features
+
+### 1. Advanced Deck Building System
+I designed a logic-based deck creation system with specific constraints to ensure gameplay balance:
+* **Deck Size:** 40 Cards total.
+* **Element Limit:** Maximum **15 cards** from a single element type.
+* **RNG Pool:** Players select an element, but the specific cards are drawn from a randomized pool of 20 variations per element.
+* **Mana Economy:** Strategic resource management system.
+
+### 2. The 8 Elemental Classes (Mechanics)
+Each element has a unique passive ability that defines its playstyle:
+
+| Element | Role | Special Ability |
+| :--- | :--- | :--- |
+| **🌱 Nature** | Support | **Buff:** Increases the **Health** of the ally card on the right by **+2**. |
+| **⚡ Lightning** | Speed | **Quick Attack:** If Attack Power > Enemy Health, the enemy **cannot counter-attack**. |
+| **🔥 Fire** | Buffer | **Buff:** Increases the **Attack Power** of the ally card on the right by **+1**. |
+| **❄️ Ice** | Debuffer | **Freeze:** Reduces the opposing enemy's **Attack Power** by **-1**. |
+| **👑 Crown** | Healer | **Lifesteal:** If it hits the opponent, it **heals your Tower** equal to the damage dealt. |
+| **🧙‍♂️ Mage** | Burst | **Spell:** Deals **2 damage** instantly at the combat start. If the enemy dies, no counter-attack occurs. |
+| **🌊 Ocean** | Overwhelm | **Trample:** If Attack Power > Enemy Health, the **excess damage** hits the Enemy Tower. |
+| **👻 Ghost** | Elusive | **Evasion:** Can only be blocked or damaged by another **Ghost** card. |
+
+---
+
+## ⚙️ Technical Highlights
+
+* **ScriptableObject Architecture:** Used for managing card databases and game configurations efficiently.
+* **Custom AI Logic:** Implemented an AI opponent that evaluates the board state and plays cards strategically based on mana availability.
+* **Pixel Art UI:** All UI elements and icons were personally designed and integrated into Unity's canvas system.
+* **Audio System:** Complete audio feedback loop for card interactions, combat effects, and UI clicks.
+
+---
+
+## 📸 Screenshots & Gameplay
+
+| Deck Builder | Combat Phase |
+| :---: | :---: |
+| ![DeckBuilder](LINK_TO_IMAGE_1) | ![Gameplay](LINK_TO_IMAGE_2) |
+
+---
+
+## 🚀 Future Roadmap
+
+- [ ] Implementing Multiplayer support via **Photon PUN 2**.
+- [ ] Adding new card synergies and combo mechanics.
+- [ ] improving AI difficulty levels using Minimax algorithm.
+
+---
+
+### 👨‍💻 Developer
+Developed by **[Erdoğan Çolak](https://www.linkedin.com/in/erdogancolak/)**
+*Feel free to contact me for collaboration or feedback!*
